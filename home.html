@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href = "./style.css "type = "text/css" rel="stylesheet">
-    
+    <link href = "./style.css " type = "text/css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Hurricane&display=swap');
+    </style>
+    <style>
+         #titlename{
+           font-family: 'Hurricane', cursive;
+           font-size: 20px
+        }
+    </style>
     <title>Cafe Audrey</title>
 </head>
 <body>
-    <img>
+    
     <div class="topnav">
-        <a href="###" style="font-family: cursive; float:left" >Audrey Cafe</a>
+        <a id = "titlename" href="./home.html" style="float:left" >Audrey Cafe</a>
+        <a id="icon" href="https://wa.me/"><img src="./images/whatsapp-64.png" alt="white whatsapp icon"></a>
         <a href="#contact">Contact Us</a>
         <a href="#news">Menu</a>
         <a class="active" href="#home">About</a>
@@ -20,27 +29,44 @@
     <div class = "whatsup">
         <h1>what's up</h1>
        <h4>
-           asfaksfamfnasifnkam kasnla sf oas jflsamfamlfa;s 
+        Small batch recipes. <br>
+        Made fresh each day.<br>
+        Now open for take-out!<br>
        </h4>
+       <button>Order Now!</button>
 
-    </div>
+    </div>  
 
-    <div class = "menu">
+
+    <div class="menu">
         <h1>Menu</h1>
-        <div class = "mealtime">
-            <img src="" alt="breakfast img">
-            <p>Breakfast</p>
-        </div>
-        <div class = "mealtime">
-            <img src="" alt="lunch img">
-            <p>Lunch</p>
-        </div>
-        <div class = "mealtime">
-            <img src="" alt="dinner img">
-            <p>Dinner</p>
-        </div>
-        
+        <table>
+            <tr>
+                <td><img src="./images/breakfast.jpg" alt="breakfast img"></td>
+                <td><img src="./images/lunch.jpg" alt="lunch img"></td>
+                <td><img src="./images/dinner.jpg" alt="dinner img"></td>
+            </tr>
+            <tr>
+                <td><a href="####">Breakfast</a></td>
+                <td><a href="#####">Lunch</a></td>
+                <td><a href="########">Dinner</a></td>
+            </tr>
+
+        </table>
     </div>
+
+
+
+
+
+    <div class="landing">
+        <h1>Find out the latest promotion</h1>
+        <input type="text" placeholder="Enter your email">
+        <button>Subscribe Now</button>
+    
+    </div>
+
+  
 
 
     

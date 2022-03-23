@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+}
+.container,
+.container2,
+.container3 {
+  position: absolute;
+  top: 14vh;
+  left: 15vw;
+  background-color: rgba(255, 255, 255, 0.897);
+  padding: 32vh 28vw;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: block;
+}
+
+.container2 {
+  margin-top: 50%;
+  padding: 32vh 30.5vw;
+}
+.container3 {
+  margin-top: 100%;
+  padding: 32vh 30.5vw;
+  margin-bottom: 0;
+}
+
+.menuHead h1,
+p {
+  position: relative;
+  top: -30vh;
+  margin: auto;
+}
+.menuDetails {
+  position: absolute;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 25vh 26vw;
+}
+.container table,
+.container2 table,
+.container3 table {
+  position: relative;
+  top: -53vh;
+  left: -49vw;
+  width: 61vw;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 77;
+  margin-top: 10px;
+  /* margin: auto; */
+  /* border: 10px black solid; */
+}
+
+table #food {
+  text-align: left;
+  margin-bottom: 10%;
+}
+table #price {
+  text-align: right;
+  margin-right: 10%;
+}
