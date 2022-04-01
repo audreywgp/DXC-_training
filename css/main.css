@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Hurricane&display=swap");
+
+* {
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(65, 61, 61, 0.151),
+      rgba(231, 222, 222, 0.151)
+    ),
+    url("../images/cafe_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#topnav.flex-container {
+  display: flex;
+  background-color: rgba(66, 64, 64, 0.425);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.flex-container > div {
+  background-color: #f0eaea4b;
+  text-align: center;
+  margin-top: 0;
+  padding: 14px 16px;
+  overflow: hidden;
+  font-size: 4vh;
+  font-family: "Hurricane", cursive;
+}
+img {
+  max-width: 35px;
+  max-height: 30px;
+}
+#row {
+  row-gap: 200px;
+  flex-grow: 10;
+  width: 10px;
+  background-color: transparent;
+}
+
+/* .leftnav {
+  content: 50px;
+} */
