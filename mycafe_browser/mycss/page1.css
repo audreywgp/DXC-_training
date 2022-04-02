@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.062),
+      rgba(255, 255, 255, 0.062)
+    ),
+    url("../image/background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  text-align: center;
+}
+
+.container {
+  margin-top: 100px;
+}
+.section {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  margin-left: 23%;
+  margin-top: 1%;
+  padding: 40px 40px;
+  text-align: left;
+}
+
+li a {
+  display: inline;
+  padding: 8px;
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+li {
+  display: block;
+  float: right;
+  background-color: rgba(192, 69, 89, 0.801);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: x-large;
+}
+
+#aboutme,
+#contact,
+#services,
+#hobbies {
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+}
+
+textarea {
+  width: 100%;
+  text-align: left;
+}
+
+/* body {
+  background: url(https://img.freepik.com/free-photo/interior-wall-mockup-with-green-plantgreen-wall-shelf3d-rendering_41470-4431.jpg?t=st=1647415551~exp=1647416151~hmac=2d8bc35222fe2ceb6830b4766e91475f718a5deef420eee7373b10532ef9cd08&w=1380);
+
+  background-color: cadetblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* filter: blur(3px); */
+/* background-image: -moz-element(); */
+/* }  */
