@@ -1,55 +1,86 @@
-@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Hurricane&display=swap");
-
-* {
-  margin: 0;
+*{
+  margin:0;
   max-width: 100%;
-  height: auto;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-body {
-  background-image: linear-gradient(
-      rgba(65, 61, 61, 0.151),
-      rgba(231, 222, 222, 0.151)
-    ),
-    url("../images/cafe_background.jpg");
+body{
+  background-image: linear-gradient(rgba(65, 61, 61, 0.151),
+    rgba(231, 222, 222, 0.151)),
+  url("../images/cafe_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-
-#topnav.flex-container {
-  display: flex;
-  background-color: rgba(66, 64, 64, 0.425);
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  overflow: hidden;
+#nav {
+  position:fixed;
   width: 100%;
-}
-
-.flex-container > div {
-  background-color: #f0eaea4b;
-  text-align: center;
   margin-top: 0;
-  padding: 14px 16px;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-  font-size: 4vh;
-  font-family: "Hurricane", cursive;
-}
-img {
-  max-width: 35px;
-  max-height: 30px;
-}
-#row {
-  row-gap: 200px;
-  flex-grow: 10;
-  width: 10px;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.763);
+  font-weight: 500;
+  font-size-adjust: 0.58;
 }
 
-/* .leftnav {
-  content: 50px;
-} */
+
+#nav li {
+  float: right;
+}
+
+#nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  margin:0;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  background-color: rgb(183, 183, 183);
+}
+
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.boxes div {
+  background-color: rgba(255, 255, 255, 0.548);
+  text-align: center;
+  max-width:70%;
+  margin: 3%;
+}
+#whatsup div{
+  margin-top:5%;
+}
+#breakfast div{
+   margin-top: 8%;
+
+}
+
+.section-title{
+  font-size: 60px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+ .menu table{
+  border-spacing:15vw 1vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#food{
+ text-align: left;
+}
+
+
