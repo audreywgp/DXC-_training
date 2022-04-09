@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./css/main.css">
+    <script type="text/javascript" src="enquiryForm.js"></script>
+    <title>Location</title>
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <li style="float:left; font-family:'Hubballi', cursive; font-weight: 700; margin:0 auto;"><a 
+                    href="./home.html">Audrey's cafe</a></li>
+            <li><a href="https://wa.me/">Whatsapp Us</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./location.html" class="active">Location</a></li>
+        </ul>
+    
+    </div>
+
+    <div id = "location-heading" class="flex-container locationpage">
+        <div>
+            <h2>We love to hear from you!</h2>
+            <p>Fill up the inquiry form </p>
+
+        </div>
+        
+    
+    </div>
+
+    <div class="flex-container form-map">
+        <div class="form items">
+            <h1>Send us a message</h1>
+            
+            <form action="" class ="formdata">
+                <table>
+                    <tr>
+                        <td><input type="text" placeholder="Enter your name" id="custname"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" placeholder="Enter your email" id="custemail"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" pattern="[0-9]{8}]" id="custnum" placeholder="Enter your phone numer" title="Valid number has 8 digit (SG)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Message" id="custmsg" id = "message"></td>
+                    </tr>
+                    <tr>
+                        <td align = "center"><input type="submit" name = "submit" onclick="getForm()"></td>
+                    </tr>
+
+                </table>
+
+            </form>
+        </div>
+        
+        <div class= "items"> 
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12607.601336729867!2d144.9530273!3d-37.8158034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4dcf756c236e21df!2sHigher%20Ground!5e0!3m2!1sen!2ssg!4v1647956725989!5m2!1sen!2ssg"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+
+        
+    </div>
+
+
+    
+
+
+</body>
+
+</html>
